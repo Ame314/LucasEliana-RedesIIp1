@@ -1,0 +1,124 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15716
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (31) boot: ESP-IDF v5.4 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Feb  6 2025 08:15:49[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v3.1[0m
+[0;32mI (35) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (39) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (42) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (50) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (72) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (79) boot: End of partition table[0m
+[0;32mI (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=18dbch (101820) map[0m
+[0;32mI (125) esp_image: segment 1: paddr=00028de4 vaddr=3ff80000 size=0001ch (    28) load[0m
+[0;32mI (125) esp_image: segment 2: paddr=00028e08 vaddr=3ffb0000 size=03f38h ( 16184) load[0m
+[0;32mI (134) esp_image: segment 3: paddr=0002cd48 vaddr=40080000 size=032d0h ( 13008) load[0m
+[0;32mI (141) esp_image: segment 4: paddr=00030020 vaddr=400d0020 size=83a74h (539252) map[0m
+[0;32mI (328) esp_image: segment 5: paddr=000b3a9c vaddr=400832d0 size=14468h ( 83048) load[0m
+[0;32mI (371) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (371) boot: Disabling RNG early entropy source...[0m
+[0;32mI (382) cpu_start: Multicore app[0m
+[0;32mI (390) cpu_start: Pro cpu start user code[0m
+[0;32mI (390) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (390) app_init: Application information:[0m
+[0;32mI (390) app_init: Project name:     LucasEliana-RedesIIp1[0m
+[0;32mI (395) app_init: App version:      1[0m
+[0;32mI (399) app_init: Compile time:     Feb  6 2025 00:11:13[0m
+[0;32mI (404) app_init: ELF file SHA256:  c940800b5...[0m
+[0;32mI (408) app_init: ESP-IDF:          v5.4[0m
+[0;32mI (412) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (416) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (420) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (424) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (430) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (435) heap_init: At 3FFB81B0 len 00027E50 (159 KiB): DRAM[0m
+[0;32mI (440) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (446) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (451) heap_init: At 40097738 len 000088C8 (34 KiB): IRAM[0m
+[0;32mI (458) spi_flash: detected chip: generic[0m
+[0;32mI (460) spi_flash: flash io: dio[0m
+[0;33mW (463) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (476) main_task: Started on CPU0[0m
+[0;32mI (486) main_task: Calling app_main()[0m
+[0;32mI (486) ESP32_TCP_CLIENT: Iniciando cliente TCP en ESP32...[0m
+[0;32mI (516) wifi:wifi driver task: 3ffc0104, prio:23, stack:6656, core=0[0m
+[0;32mI (526) wifi:wifi firmware version: 48ea317a7[0m
+[0;32mI (526) wifi:wifi certification version: v7.0[0m
+[0;32mI (526) wifi:config NVS flash: enabled[0m
+[0;32mI (526) wifi:config nano formatting: disabled[0m
+[0;32mI (536) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (536) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (536) wifi:Init management short buffer num: 32[0m
+[0;32mI (546) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (546) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (556) wifi:Init static rx buffer num: 10[0m
+[0;32mI (556) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (566) wifi_init: rx ba win: 6[0m
+[0;32mI (566) wifi_init: accept mbox: 6[0m
+[0;32mI (566) wifi_init: tcpip mbox: 32[0m
+[0;32mI (566) wifi_init: udp mbox: 6[0m
+[0;32mI (576) wifi_init: tcp mbox: 6[0m
+[0;32mI (576) wifi_init: tcp tx win: 5760[0m
+[0;32mI (576) wifi_init: tcp rx win: 5760[0m
+[0;32mI (576) wifi_init: tcp mss: 1440[0m
+[0;32mI (586) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (586) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;33mW (596) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (606) phy_init: phy_version 4840,02e0d70,Sep  2 2024,19:39:07[0m
+[0;32mI (686) wifi:mode : sta (24:dc:c3:44:6d:64)[0m
+[0;32mI (686) wifi:enable tsf[0m
+[0;32mI (686) ESP32_TCP_CLIENT: Intentando conectar al servidor 10.10.65.46:12345...[0m
+[1;31mE (686) ESP32_TCP_CLIENT: No se pudo conectar al servidor. Reintentando en 3 segundos...[0m
+[0;32mI (696) wifi:new:<6,0>, old:<1,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (706) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (1266) main_task: Returned from app_main()[0m
+[0;32mI (1756) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (1766) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (1786) wifi:connected with PUCESE_WIFI, aid = 1, channel 6, BW20, bssid = 68:28:cf:71:41:40[0m
+[0;32mI (1786) wifi:security: WPA3-SAE, phy: bgn, rssi: -86[0m
+[0;32mI (1796) wifi:pm start, type: 1[0m
+
+[0;32mI (1796) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (1826) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (3316) wifi:<ba-add>idx:0 (ifx:0, 68:28:cf:71:41:40), tid:0, ssn:1, winSize:64[0m
+[1;31mE (3706) ESP32_TCP_CLIENT: No se pudo conectar al servidor. Reintentando en 3 segundos...[0m
+[1;31mE (6706) ESP32_TCP_CLIENT: No se pudo conectar al servidor. Reintentando en 3 segundos...[0m
+[1;31mE (9706) ESP32_TCP_CLIENT: No se pudo conectar al servidor. Reintentando en 3 segundos...[0m
+[1;31mE (12706) ESP32_TCP_CLIENT: No se pudo conectar al servidor. Reintentando en 3 segundos...[0m
+[1;31mE (15706) ESP32_TCP_CLIENT: No se pudo conectar al servidor. Reintentando en 3 segundos...[0m
+[0;32mI (18356) esp_netif_handlers: sta ip: 10.10.65.70, mask: 255.255.248.0, gw: 10.10.64.1[0m
+[0;32mI (19236) ESP32_TCP_CLIENT: Conexión establecida con el servidor[0m
+[0;32mI (19236) ESP32_TCP_CLIENT: Mensaje enviado: LED está: ACTIVO[0m
+[0;32mI (19446) ESP32_TCP_CLIENT: Respuesta del servidor: Error: Comando no reconocido[0m
+[0;32mI (24446) ESP32_TCP_CLIENT: Mensaje enviado: LED está: INACTIVO[0m
+[0;32mI (24566) ESP32_TCP_CLIENT: Respuesta del servidor: Error: Comando no reconocido[0m
+[0;32mI (29566) ESP32_TCP_CLIENT: Mensaje enviado: LED está: ACTIVO[0m
+[0;32mI (29886) ESP32_TCP_CLIENT: Respuesta del servidor: Error: Comando no reconocido[0m
+[0;32mI (34886) ESP32_TCP_CLIENT: Mensaje enviado: LED está: INACTIVO[0m
+[0;32mI (35036) ESP32_TCP_CLIENT: Respuesta del servidor: Error: Comando no reconocido[0m
+[0;32mI (40036) ESP32_TCP_CLIENT: Mensaje enviado: LED está: ACTIVO[0m
+[0;32mI (40336) ESP32_TCP_CLIENT: Respuesta del servidor: Error: Comando no reconocido[0m
+[0;32mI (45336) ESP32_TCP_CLIENT: Mensaje enviado: LED está: INACTIVO[0m
+[0;32mI (45586) ESP32_TCP_CLIENT: Respuesta del servidor: Error: Comando no reconocido[0m
+[0;32mI (50586) ESP32_TCP_CLIENT: Mensaje enviado: LED está: ACTIVO[0m
+[0;32mI (50596) ESP32_TCP_CLIENT: Respuesta del servidor: Error: Comando no reconocido[0m
+[0;32mI (55596) ESP32_TCP_CLIENT: Mensaje enviado: LED está: INACTIVO[0m
+[0;32mI (55606) ESP32_TCP_CLIENT: Respuesta del servidor: Error: Comando no reconocido[0m
+[0;32mI (60606) ESP32_TCP_CLIENT: Mensaje enviado: LED está: ACTIVO[0m
+[0;32mI (60706) ESP32_TCP_CLIENT: Respuesta del servidor: Error: Comando no reconocido[0m
+[0;32mI (65706) ESP32_TCP_CLIENT: Mensaje enviado: LED e
